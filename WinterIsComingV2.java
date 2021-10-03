@@ -1,12 +1,14 @@
 package kap1;
 
 /*
-*******************
-* WinterIsComingV2
-* Jara Zihlmann
-* Vithusan Ramalingam
-* Jan Ellenberger
-*********************
+*****************
+*WinterIsComingV2
+*
+*Jara Zihlman (20-117-032)
+*Vithusan Ramalingam (21-105-515)
+*Jan Ellenberger (21-103-643)
+*
+*****************
 */
 public class WinterIsComingV2 {
 

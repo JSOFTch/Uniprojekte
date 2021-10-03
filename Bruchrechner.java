@@ -6,21 +6,12 @@ import java.util.Scanner;
 *****************
 *Bruchrechner
 *
-* 
-*
-*
-*Jara Zihlman
-*Vithusan Ramalingam
-*Jan Ellenberger
-*
-*
-*
+*Jara Zihlman (20-117-032)
+*Vithusan Ramalingam (21-105-515)
+*Jan Ellenberger (21-103-643)
 *
 *****************
 */
-
-
-
 
 
 public class Bruchrechner {
@@ -53,8 +44,10 @@ public class Bruchrechner {
         }else {
             int A = (int) (a); int B = (int) (b);
             System.out.println( A + " / " + B + " = " + a/b);
+
+            System.out.println("oder");
             
-            System.out.print("Ergebniss: " + A/B +  " Rest: " + a%b);
+            System.out.print(A + "/" + B + ":" + A/B +  " Rest: " + a%b);
         }
             
     }
