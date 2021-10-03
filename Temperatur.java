@@ -1,6 +1,17 @@
+package kap1;
 import java.util.Scanner;
 
-public class temperature{
+/****************
+*Temperatur
+*
+*Jara Zihlman (20-117-032)
+*Vithusan Ramalingam (21-105-515)
+*Jan Ellenberger (21-103-643)
+*
+*****************
+*/
+
+public class Temperatur {
 
     public static int t;
 
@@ -16,23 +27,21 @@ public class temperature{
         t = scanner.nextInt(); //
         
         
-        if (t <= COLD_LIMIT) {
+        if (t < COLD_LIMIT) {
             System.out.print("Kalt");          
         } 
-        else if(t >= WARM_LIMIT) {
-            System.out.print("Angenehm");          
 
+        else if(t >= WARM_LIMIT) {
+            System.out.print("Warm");          
         }
 
         else{
-            System.out.print("Warm");          
+            System.out.print("Angenehm");          
 
         }
 
 
         
     }
-
-
-
+    
 }
